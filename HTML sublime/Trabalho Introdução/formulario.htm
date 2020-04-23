@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Filmesando</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1{
+                font-family: Arial;
+                font-size: 28pt;
+                color: black;
+                text-shadow: 3px 3px 5px  black;
+
+            }
+            body{
+                text-align: center;
+                background-image: url(fundoCadastro.jpg);
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+            form{  display: flex;   justify-content: inherit;  flex-direction: column;  min-height: 100vh;  
+            }  
+            .botaoEnviar{  width: 350px;  padding: 15px 20px;  border: 1px solid #eee;  border-radius: 6px;  background-color: darkgray;  font-size: 18px;  
+            }   
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Cadasdre-se para assesar a todos os filmes do momento!</h1>
+            </br></br></br></br>
+        </div>       
+    <center>
+        <form>
+            <table>
+                <tr>
+                    <td>Nome: <input type="text" name="nome" size="100"/></br></br></td>
+                </tr><tr>
+                    <td>Sobrenome: <input type="text" name="nome" size="95"/></br></br></td>
+                </tr><tr>
+                    <td>E-mail: <input type="text" name="nome" size="100"/></br></br></td>
+                </tr><tr>
+                    <td>Senha: <input type="password" name="senha" size="100"/></br></br></td>
+                </tr><tr>
+                    <td>Idade: <input type="text" name="nome" size="100"/></br></br></td>
+                </tr><tr>
+                    <td>
+                        Sexo:
+                        <input type="radio" name="sexo" value="M" checked= "checked" /> Masculino
+                        <input type="radio" name="sexo" value="F" /> Feminino
+                        </br></br>
+                        Modo de Pagamento: 
+                        <select name="Modo de Pagamento: ">
+                            <option value="Boleto">Boleto Bancário</option>
+                            <option value="Cartao">Cartão de crédito</option>
+                            <option value="transferencia" >Transferência bancária</option>
+                            
+                        </select></br></br>
+                </tr>  <tr>
+                <div id="botao"> 
+                    <td><center><button type="submit" name="Increva-se" value="Increva-se" class="botaoEnviar" > 
+                            <a href="final.html">Enviar Dados</a>
+                    </button></center></td>
+                </div>
+            </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
