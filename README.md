@@ -10,7 +10,7 @@ Teremos neste repositório :point_down:
 
 - [X] Curso de HTML5 + CSS3;
 
-- [ ] Curos de JavaScript;
+- [ ] Curso de JavaScript;
 
 - [X] Curso de PHP;
 
@@ -20,6 +20,6 @@ Teremos neste repositório :point_down:
 
 _Obs.: Os cursos não listados, estão em progresso;_
 
-Se ficou intereçado nos cursos, você pode clicar [aqui](https://www.cursoemvideo.com/sucesso/) para acessa-los.
+Se ficou interessado nos cursos, você pode clicar [aqui](https://www.cursoemvideo.com/sucesso/) para acessá-los.
 
 Obrigado pela força :smiley:
