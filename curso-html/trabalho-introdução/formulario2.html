@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Filmesando</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1{
+                font-family: Arial;
+                font-size: 28pt;
+                color: black;
+                text-shadow: 3px 3px 5px  black;
+
+            }
+            body{
+                text-align: center;
+                background-image: url(fundoCadastro.jpg);
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+            form{  display: flex;   justify-content: inherit;  flex-direction: column;  min-height: 100vh;  
+            }  
+            .botaoEnviar{  width: 350px;  padding: 15px 20px;  border: 1px solid #eee;  border-radius: 6px;  background-color: darkgray;  font-size: 18px;  
+            }   
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Agora que ja conhece nossos planos, cadasdre-se para assesar a todos os filmes do momento!</h1>
+            </br></br>
+        </div>       
+    <center>
+        <fieldset id="informações"><legend>Informações Pessoais</legend>
+                    Nome: <input type="text" name="nome" size="100"/></br></br>
+                    Sobrenome: <input type="text" name="nome" size="95"/></br></br>
+                    E-mail: <input type="text" name="nome" size="100"/></br></br>
+                    Senha: <input type="password" name="senha" size="100"/></br></br>
+                    Idade: <input type="text" name="nome" size="100"/></br></br>
+        </fieldset>
+        <fieldset id="informações"><legend>Opções de  e pagamento:</legend> 
+                            Qual o plano que você mais se interessou:
+                            <select name="Plano: ">
+                            <option value="Boleto">Plano Simples</option>
+                            <option value="Cartao">Plano Moderado</option>
+                            <option value="transferencia" >Plano Hard</option>
+                            <option value="transferencia" >Plano Maratona</option>
+                            
+                        </select></br></br>
+                        Modo de Pagamento: 
+                        <select name="Modo de Pagamento: ">
+                            <option value="Boleto">Boleto Bancário</option>
+                            <option value="Cartao">Cartão de crédito</option>
+                            <option value="transferencia" >Transferência bancária</option>
+        </fieldset>
+        
+                        </select></br></br>
+                <div id="botao"> 
+                    <center><button type="submit" name="Increva-se" value="Increva-se" class="botaoEnviar" > 
+                            <a href="finalB.html">Enviar Dados</a>
+                    </button></center>
+                </div>
+        </form>
+    </center>
+</body>
+</html>
