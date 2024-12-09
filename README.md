@@ -1,8 +1,8 @@
-# cursos-auto-didata
+# cursos
 
-## Meus cursos feitos totalmente on-line :+1:
- 
-_**Esse projeto apresentara meus cursos feitos ao longo de 2 anos totalmente on-line, todos feito pelo canal do youtube, Curso em Video, tendo o Gustavo Guanabara como professor das aulas. E alguns feitos na plataforma, codeiot :nerd_face:**_
+## Jornada de todo meu aprendizado por meio de cursos :+1:
+
+_**Esse projeto apresentará meus cursos feitos principalmente no início dessa estrada que estou trilhando. Feitos totalmente online pelo canal do youtube, Curso em Video, tendo o Gustavo Guanabara como professor das aulas. E alguns feitos na plataforma, codeiot :nerd_face:**_
 
 Teremos neste repositório :point_down:
 
@@ -20,7 +20,7 @@ Teremos neste repositório :point_down:
 
 - [ ] Cursos de Eletrônica;
 
-_Obs.: Os cursos não listados, estão em progresso;_
+_Obs.: Cursos sem marcação estão em progresso;_
 ***
 
 Se ficou interessado nos cursos, você pode clicar [aqui](https://www.cursoemvideo.com/sucesso/) para acessá-los. 
