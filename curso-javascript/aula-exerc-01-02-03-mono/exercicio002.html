@@ -35,7 +35,7 @@
         <p>Ano de nascimento:  <input type="number" id="txtIdad" name="txtIdad"></p>
         <p>Sexo: 
             <input type="radio" id="radSexM" name="radSexM">Masculino
-            <input type="radio" id="radSexF" name="radSexF">Feiminino
+            <input type="radio" id="radSexF" name="radSexF">Feminino
         </p> 
         <input type="button" value="Verificar" onclick="verifIdad()">
         <h1 id="msg"></h1>
@@ -49,54 +49,15 @@
         var msg = window.document.getElementById('msg');
         var img = window.document.getElementById('foto');
         function verifIdad(){
-            if(Number(idad) < 5 && sexM == true){
-                msg.innerHTML = 'Detectamos um  menino de ${idade} ano'
-                img.src = 'masculino05.jpeg';
+            if(sexM == true){
+                msg.innerHTML = 'Detectamos um ${ser} de ${idade} ano';
+                img.src = 'masculino' + Number(idad) + '.jpeg';
+
+
+            }else{
+                msg.innerHTML = 'Detectamos um ${ser} de ${idade} ano';
+                img.src = 'feminino' + Number(idad) + '.jpeg';
             }
-            else if(Number(idad) < 10 && sexM == true){
-                msg.innerHTML = 'Detectamos um  menino de ${idade} ano'
-                img.src = 'masculino10.jpeg';
-            }
-            else if(Number(idad) < 15 && sexM == true){
-                msg.innerHTML = 'Detectamos um  menino de ${idade} ano'
-                img.src = 'masculino15.jpeg';
-            }
-            else if(Number(idad) < 20 && sexM == true){
-                msg.innerHTML = 'Detectamos um  menino de ${idade} ano'
-                img.src = 'masculino20.jpeg';
-            }
-            else if(Number(idad) < 40 && sexM == true){
-                msg.innerHTML = 'Detectamos um  menino de ${idade} ano'
-                img.src = 'masculino30.jpeg';
-            }
-            else if(Number(idad) < 60 && sexM == true){
-                msg.innerHTML = 'Detectamos um  menino de ${idade} ano'
-                img.src = 'masculino60.jpeg';
-            }
-            else if(Number(idad) < 05 && sexF == true){
-                msg.innerHTML = 'Detectamos um  menino de ${idade} ano'
-                img.src = 'feiminino05.jpeg';
-            }
-            else if(Number(idad) < 10 && sexF == true){
-                msg.innerHTML = 'Detectamos um  menino de ${idade} ano'
-                img.src = 'feiminino10.jpeg';
-            }
-            else if(Number(idad) < 15 && sexF == true){
-                msg.innerHTML = 'Detectamos um  menino de ${idade} ano'
-                img.src = 'feiminino15.jpeg';
-            }
-            else if(Number(idad) < 20 && sexF == true){
-                msg.innerHTML = 'Detectamos um  menino de ${idade} ano'
-                img.src = 'feiminino20.jpeg';
-            }
-            else if(Number(idad) < 30 && sexF == true){
-                msg.innerHTML = 'Detectamos um  menino de ${idade} ano'
-                img.src = 'feiminino30.jpeg';
-            }
-            else if(Number(idad) < 60 && sexF == true){
-                msg.innerHTML = 'Detectamos um  menino de ${idade} ano'
-                img.src = 'feiminino60.jpeg';
-            
         }
     </script>
 </body>

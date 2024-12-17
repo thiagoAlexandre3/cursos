@@ -1,4 +1,4 @@
-@charset UTF-8;
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 h1{
@@ -7,7 +7,7 @@ h1{
 	color: black;
 }
 p{
-	text-aling: justify;
+	text-align: justify;
 	text-indent: 50px;
 }
 body{  
